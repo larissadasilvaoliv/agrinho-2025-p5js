@@ -1,0 +1,121 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f3f0;
+  color: #4b5320;
+  margin: 0;
+  padding: 0 1rem;
+}
+
+header {
+  background-color: #556b2f; /* verde musgo escuro */
+  color: #d2b48c; /* marrom claro */
+  text-align: center;
+  padding: 2rem 1rem;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 4px 8px rgba(85, 107, 47, 0.5);
+}
+
+.intro {
+  max-width: 700px;
+  margin: 1.5rem auto;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #6b4c3b; /* marrom */
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.campo, .cidade {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  color: #556b2f; /* verde musgo */
+  margin-bottom: 0.5rem;
+}
+
+.comparativo {
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #6b4c3b;
+}
+
+table, th, td {
+  border: 1px solid #a88a64;
+}
+
+th, td {
+  padding: 0.8rem;
+  text-align: center;
+}
+
+th {
+  background-color: #d2b48c;
+  color: #556b2f;
+}
+
+.mensagem {
+  max-width: 700px;
+  margin: 2rem auto;
+  text-align: center;
+  background-color: #eaf4db;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #6b8e23;
+  color: #4b5320;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+footer {
+  background-color: #556b2f;
+  color: #d2b48c;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  margin-top: 3rem;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 -4px 8px rgba(85, 107, 47, 0.5);
+}
+
+footer a {
+  color: #d2b48c;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+footer .creditos {
+  margin-top: 0.8rem;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.btn-abelha {
+  background-color: #6b8e23; /* verde musgo claro */
+  color: white;
+  border: none;
+  padding: 0.8rem 1.8rem;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(107, 142, 35, 0.7);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  user-select: none;
+}
+
+.btn-abelha:hover {
+  background-color: #556b2f;
+  box-shadow: 0 6px 12px rgba(85, 107, 47, 0.9);
+}
+
+.btn-abelha:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 5px rgba(85, 107, 47, 0.9);
+}
